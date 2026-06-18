@@ -1,4 +1,4 @@
-# celebal-data-engineering-internship
+#  celebal-data-engineering-internship
 Weekly internship assignments and projects completed during the Celebal Excellence Internship Program.
 
 # Week 1 - Basic Data Exploration and Cleaning using Pandas
