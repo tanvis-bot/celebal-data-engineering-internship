@@ -1,0 +1,27 @@
+WEEK 8 - DATA CLEANING ISSUES REPORT
+==================================================
+
+Duplicate customer rows found: 0
+Customers with invalid emails: 6
+Invalid email customer IDs: 68, 150, 171, 175, 459, 494
+Invalid customer_type records removed: 0
+Invalid registration dates removed: 0
+Duplicate product rows found: 0
+Products with invalid cost_price removed: 0
+Duplicate order rows found: 0
+Orders with missing customer_id: 26
+Unparseable order dates removed: 0
+Orders with invalid status removed: 0
+Duplicate order-item rows found: 0
+Order items with invalid quantity: 0
+Order items with invalid unit_price: 0
+Invalid discount_percent values: 0
+Order items referencing non-existent orders: 53
+Order items referencing non-existent products: 0
+Orders referencing non-existent customers: 6
+
+==================================================
+Final customers: 494
+Final products: 500
+Final orders: 468
+Final order_items: 939

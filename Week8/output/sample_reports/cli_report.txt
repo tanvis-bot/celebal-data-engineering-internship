@@ -1,0 +1,30 @@
+
+==========================================
+       E-COMMERCE REPORTING TOOL
+==========================================
+Enter report type (daily/weekly/monthly): 
+Selected report type: MONTHLY
+Start date (YYYY-MM-DD): End date   (YYYY-MM-DD): 
+==========================================
+        E-COMMERCE ANALYTICS REPORT
+==========================================
+Period           : 2026-01-01 to 2026-06-30
+Total Orders     : 103
+Total Revenue    : 2190928.32
+Unique Customers : 94
+
+TOP 3 PRODUCTS
+------------------------------------------
+1. Ad Pro | Qty: 13 | Revenue: 55345.09
+2. Velit Pro | Qty: 9 | Revenue: 55221.83
+3. Laborum Premium | Qty: 8 | Revenue: 39025.02
+
+PREVIOUS PERIOD COMPARISON
+------------------------------------------
+Previous Period  : 2025-07-04 to 2025-12-31
+Previous Orders  : 111
+Previous Revenue : 1950583.68
+Previous Customers: 98
+Revenue Growth   : 12.32%
+==========================================
+

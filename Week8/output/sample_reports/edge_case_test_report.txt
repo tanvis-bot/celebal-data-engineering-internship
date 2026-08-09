@@ -1,0 +1,9 @@
+
+============================================================
+WEEK 8 - EDGE CASE TESTING
+============================================================
+TEST 1 PASSED: Non-existent order_id rejected.
+TEST 2 PASSED: discount_percent > 100 rejected.
+TEST 3 PASSED: quantity = 0 rejected.
+TEST 4 PASSED: Future order_date detected as invalid.
+============================================================

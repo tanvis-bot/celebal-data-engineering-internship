@@ -1,0 +1,269 @@
+┌─────────────┬───────────────┐
+│  category   │ total_revenue │
+├─────────────┼───────────────┤
+│ Electronics │ 2052912.73    │
+│ Home        │ 2026683.87    │
+│ Books       │ 1997489.57    │
+│ Clothing    │ 1722217.46    │
+└─────────────┴───────────────┘
+┌─────────────┬──────────────────────┬───────────────┬──────────────┬───────────────────┐
+│ customer_id │    customer_name     │ customer_type │ total_orders │ total_order_value │
+├─────────────┼──────────────────────┼───────────────┼──────────────┼───────────────────┤
+│ 247         │ Chasmum Apte         │ PREMIUM       │ 3            │ 104332.27         │
+│ 329         │ Krishna Sabharwal    │ REGULAR       │ 1            │ 103234.83         │
+│ 233         │ Tripti Walia         │ PREMIUM       │ 3            │ 103208.84         │
+│ 339         │ Aditya Anand         │ PREMIUM       │ 4            │ 103034.92         │
+│ 172         │ Dayita Puri          │ REGULAR       │ 3            │ 101023.06         │
+│ 264         │ Darsh Gill           │ PREMIUM       │ 3            │ 91703.74          │
+│ 371         │ Banjeet Kale         │ REGULAR       │ 2            │ 88380.36          │
+│ 135         │ Imaran Bal           │ VIP           │ 3            │ 87974.51          │
+│ 86          │ Ethan Bera           │ PREMIUM       │ 3            │ 84024.03          │
+│ 458         │ Hamsini Venkataraman │ VIP           │ 2            │ 82658.7           │
+└─────────────┴──────────────────────┴───────────────┴──────────────┴───────────────────┘
+┌─────────────┬──────────────┐
+│ order_month │ total_orders │
+├─────────────┼──────────────┤
+│ 2025-08     │ 15           │
+│ 2025-09     │ 34           │
+│ 2025-10     │ 14           │
+│ 2025-11     │ 19           │
+│ 2025-12     │ 18           │
+│ 2026-01     │ 16           │
+│ 2026-02     │ 28           │
+│ 2026-03     │ 18           │
+│ 2026-04     │ 17           │
+│ 2026-05     │ 19           │
+│ 2026-06     │ 18           │
+│ 2026-07     │ 18           │
+│ 2026-08     │ 4            │
+└─────────────┴──────────────┘
+┌─────────────┬────────────────────┬──────────────┐
+│ customer_id │   customer_name    │ total_orders │
+├─────────────┼────────────────────┼──────────────┤
+│ 28          │ Vasana Kala        │ 3            │
+│ 86          │ Ethan Bera         │ 3            │
+│ 93          │ Neha Magar         │ 3            │
+│ 113         │ Wahab Mani         │ 3            │
+│ 135         │ Imaran Bal         │ 3            │
+│ 193         │ Bhavika Parikh     │ 3            │
+│ 241         │ Baljiwan Gill      │ 3            │
+│ 242         │ Bimala Barad       │ 3            │
+│ 247         │ Chasmum Apte       │ 3            │
+│ 264         │ Darsh Gill         │ 3            │
+│ 267         │ Omaja Wagle        │ 3            │
+│ 388         │ Kashvi Randhawa    │ 3            │
+│ 399         │ Samesh Gupta       │ 3            │
+│ 500         │ Harish Mane        │ 3            │
+│ 3           │ Arunima Ahuja      │ 2            │
+│ 10          │ Amrita Bhatti      │ 2            │
+│ 12          │ Lakshit Upadhyay   │ 2            │
+│ 34          │ Tanvi Mutti        │ 2            │
+│ 37          │ Krish Lalla        │ 2            │
+│ 44          │ Lavanya Barad      │ 2            │
+│ 48          │ Dipta Sarin        │ 2            │
+│ 59          │ Shivani Lad        │ 2            │
+│ 80          │ Pavani Narayanan   │ 2            │
+│ 90          │ Upma Manne         │ 2            │
+│ 98          │ Bhavya Rattan      │ 2            │
+│ 100         │ Odika Bhagat       │ 2            │
+│ 106         │ Aarnav Mandal      │ 2            │
+│ 112         │ Falguni Walla      │ 2            │
+│ 114         │ Sachi Ganesan      │ 2            │
+│ 118         │ Ethan Sathe        │ 2            │
+│ 127         │ Timothy Bhatnagar  │ 2            │
+│ 148         │ Amara Balakrishnan │ 2            │
+│ 163         │ Ucchal Sen         │ 2            │
+│ 180         │ Naveen Mahajan     │ 2            │
+│ 182         │ Finn Prasad        │ 2            │
+│ 184         │ Fariq Bahl         │ 2            │
+│ 186         │ Amol Varma         │ 2            │
+│ 191         │ Dev Shankar        │ 2            │
+│ 202         │ Jacob Lala         │ 2            │
+│ 203         │ Ryan Das           │ 2            │
+│ 206         │ Jalsa Pillay       │ 2            │
+│ 234         │ Arya Misra         │ 2            │
+│ 243         │ Krish Thaman       │ 2            │
+│ 254         │ Anthony Randhawa   │ 2            │
+│ 265         │ Eiravati Saha      │ 2            │
+│ 274         │ Amol Lal           │ 2            │
+│ 280         │ Anvi Wason         │ 2            │
+│ 281         │ Gopal Viswanathan  │ 2            │
+│ 288         │ Logan Brar         │ 2            │
+│ 294         │ Harshil Bal        │ 2            │
+│ 296         │ Amruta Mitra       │ 2            │
+│ 303         │ Nilima Tata        │ 2            │
+│ 312         │ Nitesh Kohli       │ 2            │
+│ 315         │ Harsh Yadav        │ 2            │
+│ 321         │ Robert Rajagopalan │ 2            │
+│ 331         │ Neha Varma         │ 2            │
+│ 345         │ Charvi Jha         │ 2            │
+│ 348         │ Urishilla Bora     │ 2            │
+│ 353         │ Laksh Apte         │ 2            │
+│ 361         │ Daksha Kibe        │ 2            │
+│ 394         │ Raksha Saini       │ 2            │
+│ 410         │ Advik Virk         │ 2            │
+│ 416         │ Gaurav Guha        │ 2            │
+│ 429         │ Nidhi Rama         │ 2            │
+│ 437         │ Gaurang Dayal      │ 2            │
+│ 441         │ Radha Desai        │ 2            │
+│ 443         │ Jatin Peri         │ 2            │
+│ 457         │ Nisha Sastry       │ 2            │
+│ 460         │ Warhi Gandhi       │ 2            │
+│ 475         │ Hredhaan Bakshi    │ 2            │
+│ 477         │ Jagrati Sethi      │ 2            │
+│ 487         │ Aryan Varughese    │ 2            │
+│ 499         │ Zashil Chaudhari   │ 2            │
+│ 2           │ Tejas Kaul         │ 1            │
+│ 4           │ Tanveer Nayar      │ 1            │
+│ 6           │ Rehaan Boase       │ 1            │
+│ 7           │ Lajita Mall        │ 1            │
+│ 9           │ Theodore Nair      │ 1            │
+│ 11          │ Luke Lanka         │ 1            │
+│ 14          │ Ishwar Yadav       │ 1            │
+│ 17          │ Isaac Patil        │ 1            │
+│ 23          │ Tanish Zacharia    │ 1            │
+│ 29          │ Alka Sha           │ 1            │
+│ 31          │ Dakshesh Trivedi   │ 1            │
+│ 32          │ Netra Dar          │ 1            │
+│ 50          │ Dipta Dash         │ 1            │
+│ 52          │ Nidra Acharya      │ 1            │
+│ 55          │ Yash Soman         │ 1            │
+│ 61          │ Michael Kala       │ 1            │
+│ 62          │ David Jhaveri      │ 1            │
+│ 63          │ Vansha Ahuja       │ 1            │
+│ 65          │ Noah Sibal         │ 1            │
+│ 70          │ Aahana Pillay      │ 1            │
+│ 71          │ Devika Prashad     │ 1            │
+│ 75          │ Ekantika Korpal    │ 1            │
+│ 76          │ Ladli Nayar        │ 1            │
+│ 89          │ Naksh Khatri       │ 1            │
+│ 91          │ Aishani Hora       │ 1            │
+│ 94          │ Rachana Naidu      │ 1            │
+│ 95          │ Amruta Baria       │ 1            │
+│ 110         │ Harish Sarraf      │ 1            │
+│ 111         │ Mohammed Borde     │ 1            │
+│ 119         │ Leena Subramanian  │ 1            │
+│ 123         │ Parth Iyer         │ 1            │
+│ 126         │ Adweta Raj         │ 1            │
+│ 129         │ Lipika Setty       │ 1            │
+│ 131         │ Warinder Patil     │ 1            │
+│ 145         │ Jason Roy          │ 1            │
+│ 147         │ Inaya Pillai       │ 1            │
+│ 151         │ Nachiket Dugar     │ 1            │
+│ 160         │ Farhan Randhawa    │ 1            │
+│ 162         │ Aahana Hora        │ 1            │
+│ 168         │ Raksha Sarna       │ 1            │
+│ 170         │ Libni Mander       │ 1            │
+│ 173         │ Yashoda Pathak     │ 1            │
+│ 174         │ Upkaar Devan       │ 1            │
+│ 176         │ Raksha Bassi       │ 1            │
+│ 177         │ Vivaan Walla       │ 1            │
+│ 178         │ Triya Manda        │ 1            │
+│ 187         │ Wridesh Saha       │ 1            │
+│ 190         │ Hamsini Gill       │ 1            │
+│ 194         │ Rajeshri Ratta     │ 1            │
+│ 196         │ Chaaya Nagi        │ 1            │
+│ 198         │ Falan Ravi         │ 1            │
+│ 204         │ Gagan Nagarajan    │ 1            │
+│ 208         │ Shivani Shukla     │ 1            │
+│ 218         │ Bina Rajagopalan   │ 1            │
+│ 219         │ Ranveer Dutta      │ 1            │
+│ 221         │ Baghyawati Talwar  │ 1            │
+│ 224         │ Jagat Dave         │ 1            │
+│ 228         │ Chandani Soman     │ 1            │
+│ 230         │ Manbir Kibe        │ 1            │
+│ 231         │ Omya Doshi         │ 1            │
+│ 232         │ David Devi         │ 1            │
+│ 237         │ Varenya Kala       │ 1            │
+│ 244         │ Aarini Grewal      │ 1            │
+│ 249         │ Theodore Deol      │ 1            │
+│ 252         │ Jackson Jha        │ 1            │
+│ 253         │ Sudiksha Deo       │ 1            │
+│ 257         │ Keya Buch          │ 1            │
+│ 261         │ Bahadurjit Sekhon  │ 1            │
+│ 266         │ Umang Mital        │ 1            │
+│ 272         │ Darika Lal         │ 1            │
+│ 278         │ Vihaan Bir         │ 1            │
+│ 279         │ Darpan Subramanian │ 1            │
+│ 282         │ Farhan Prakash     │ 1            │
+│ 284         │ Aditya Garg        │ 1            │
+│ 289         │ Harini Ranganathan │ 1            │
+│ 290         │ Ishani Prashad     │ 1            │
+│ 293         │ Harsh Deo          │ 1            │
+│ 297         │ Oviya Mistry       │ 1            │
+│ 300         │ Varenya Murthy     │ 1            │
+│ 301         │ Xavier Nanda       │ 1            │
+│ 302         │ Pranit Bala        │ 1            │
+│ 304         │ Krishna Borah      │ 1            │
+│ 305         │ Balhaar Parsa      │ 1            │
+│ 306         │ Ojas Basu          │ 1            │
+│ 307         │ Advaith Chaudhari  │ 1            │
+│ 311         │ Eiravati Bhavsar   │ 1            │
+│ 317         │ Chameli Chad       │ 1            │
+│ 318         │ Kashvi Dhaliwal    │ 1            │
+│ 323         │ Umang Yogi         │ 1            │
+│ 327         │ Noah Dewan         │ 1            │
+│ 328         │ Om Naik            │ 1            │
+│ 329         │ Krishna Sabharwal  │ 1            │
+│ 332         │ Girik Shanker      │ 1            │
+│ 337         │ Charles Randhawa   │ 1            │
+│ 340         │ Veer Rajagopal     │ 1            │
+│ 343         │ Teerth Chadha      │ 1            │
+│ 349         │ Darpan Rao         │ 1            │
+│ 351         │ Mahika Bhatti      │ 1            │
+│ 357         │ Advik Konda        │ 1            │
+│ 359         │ Yadavi Ben         │ 1            │
+│ 360         │ Deepa Narang       │ 1            │
+│ 362         │ Matthew Ahuja      │ 1            │
+│ 363         │ Gautami Agarwal    │ 1            │
+│ 376         │ Brijesh Shenoy     │ 1            │
+│ 377         │ Pooja Gera         │ 1            │
+│ 380         │ Anirudh Raja       │ 1            │
+│ 386         │ Aadi Narula        │ 1            │
+│ 398         │ Raagini Gala       │ 1            │
+│ 411         │ Hitesh Chaudhuri   │ 1            │
+│ 412         │ Urvashi Barad      │ 1            │
+│ 413         │ Balvan Randhawa    │ 1            │
+│ 419         │ Chandresh Patel    │ 1            │
+│ 421         │ Hemangini Gade     │ 1            │
+│ 424         │ Abhiram Kapur      │ 1            │
+│ 428         │ Netra Nagarajan    │ 1            │
+│ 442         │ Netra Bahl         │ 1            │
+│ 444         │ Chanakya Chokshi   │ 1            │
+│ 445         │ Lajita Dasgupta    │ 1            │
+│ 446         │ Charvi Salvi       │ 1            │
+│ 455         │ Oviya Ganesan      │ 1            │
+│ 456         │ Raksha Golla       │ 1            │
+│ 470         │ Wishi Agrawal      │ 1            │
+│ 474         │ Jack Pandey        │ 1            │
+│ 480         │ Falan Grover       │ 1            │
+│ 481         │ Aishani De         │ 1            │
+│ 482         │ Balveer Dube       │ 1            │
+│ 484         │ Netra Chanda       │ 1            │
+│ 491         │ Zayan Bobal        │ 1            │
+│ 495         │ Laban Raman        │ 1            │
+│ 498         │ Rishi Contractor   │ 1            │
+└─────────────┴────────────────────┴──────────────┘
+┌────────────┬─────────────────────┬─────────────┬─────────────────┬────────────────┐
+│ product_id │    product_name     │  category   │ purchased_units │ returned_units │
+├────────────┼─────────────────────┼─────────────┼─────────────────┼────────────────┤
+│ 84         │ Doloremque Plus     │ Clothing    │ 6               │ 8              │
+│ 109        │ Molestias Classic   │ Books       │ 1               │ 5              │
+│ 5          │ Iure Classic        │ Clothing    │ 2               │ 5              │
+│ 441        │ Voluptate Pro       │ Electronics │ 0               │ 5              │
+│ 51         │ Suscipit Pro        │ Home        │ 4               │ 5              │
+│ 292        │ Ullam Plus          │ Home        │ 0               │ 5              │
+│ 14         │ Maiores Pro         │ Clothing    │ 0               │ 4              │
+│ 67         │ Mollitia Pro        │ Clothing    │ 3               │ 4              │
+│ 372        │ Doloribus Pro       │ Clothing    │ 2               │ 4              │
+│ 426        │ Doloribus Pro       │ Electronics │ 0               │ 2              │
+│ 473        │ Consectetur Classic │ Home        │ 0               │ 2              │
+└────────────┴─────────────────────┴─────────────┴─────────────────┴────────────────┘
+┌─────────────┬─────────────────┬────────────────┬─────────────┬─────────────────────┐
+│  category   │ purchased_units │ returned_units │ total_units │ return_rate_percent │
+├─────────────┼─────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ Clothing    │ 632             │ 36             │ 668         │ 5.39                │
+│ Books       │ 685             │ 33             │ 718         │ 4.6                 │
+│ Home        │ 699             │ 18             │ 717         │ 2.51                │
+│ Electronics │ 685             │ 16             │ 701         │ 2.28                │
+└─────────────┴─────────────────┴────────────────┴─────────────┴─────────────────────┘
