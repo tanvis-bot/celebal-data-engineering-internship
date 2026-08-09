@@ -26,3 +26,5 @@ This repository contains my weekly assignments completed during the Celebal Tech
 - Week 6 – Spark Architecture, DataFrames, and Parquet Operations
 
 - Week 7 – Incremental Data Processing using Delta Lake and MERGE Operations
+
+- Week 8 – End-to-End E-Commerce Order Analytics using Python, SQL, Window Functions, Cohort Analysis, and CLI Reporting
