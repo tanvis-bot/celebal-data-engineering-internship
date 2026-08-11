@@ -1,0 +1,6 @@
+source_id,source_name,file_name,target_table,primary_key,active_flag,load_type,source_system_owner,data_classification,row_count_threshold,max_null_pct,retry_count,partition_column,sla_cutoff_time
+SRC_001,patients,patients.csv,healthcare.bronze.patients,patient_id,Y,FULL,EHR Team,PHI,40,0.05,3,_ingestion_date,06:00
+SRC_002,doctors,doctors.csv,healthcare.bronze.doctors,doctor_id,Y,FULL,HR Clinical Team,PII,8,0.05,3,_ingestion_date,06:00
+SRC_003,appointments,appointments.csv,healthcare.bronze.appointments,appointment_id,Y,FULL,Appointment System,PHI,150,0.05,3,_ingestion_date,06:00
+SRC_004,treatments,treatments.csv,healthcare.bronze.treatments,treatment_id,Y,FULL,Clinical Operations,PHI,150,0.05,3,_ingestion_date,06:00
+SRC_005,billing,billing.csv,healthcare.bronze.billing,bill_id,Y,FULL,Billing Team,PHI,150,0.05,3,_ingestion_date,06:00
